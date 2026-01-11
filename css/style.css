@@ -215,3 +215,17 @@ section {
 .join-btn:hover {
   background: #4752c4;
 }
+.news {
+  margin-top: 60px;
+}
+
+.news-item {
+  background: #1b1b1b;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.news-item h3 {
+  margin: 0 0 5px 0;
+}
