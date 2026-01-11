@@ -185,3 +185,33 @@ section {
 .hero-buttons a:hover {
   background: #00a2b5;
 }
+.community {
+  margin-top: 60px;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 30px;
+  align-items: center;
+}
+
+.community-text p {
+  color: #b0b0b0;
+  line-height: 1.6;
+}
+
+.join-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #5865F2;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.join-btn:hover {
+  background: #4752c4;
+}
