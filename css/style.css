@@ -314,3 +314,89 @@ section {
 .download-btn:hover {
   background: #00a2b5;
 }
+
+/* ===== MODERN DOWNLOADS ===== */
+
+.downloads-header {
+  margin-bottom: 30px;
+}
+
+.downloads-header p {
+  color: #9aa0a6;
+  font-size: 14px;
+}
+
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+.download-card {
+  background: #151515;
+  border-radius: 14px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #1f1f1f;
+  transition: all 0.2s ease;
+}
+
+.download-card:hover {
+  border-color: #00bcd4;
+  transform: translateY(-3px);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.tag {
+  background: #00bcd4;
+  color: #000;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.tag.alt {
+  background: #2a2a2a;
+  color: #00bcd4;
+}
+
+.tag.alt2 {
+  background: #2a2a2a;
+  color: #8ab4f8;
+}
+
+.card-desc {
+  font-size: 13px;
+  color: #cfcfcf;
+  line-height: 1.4;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card-footer span {
+  font-size: 11px;
+  color: #9aa0a6;
+}
+
+.card-footer a {
+  font-size: 12px;
+  padding: 6px 12px
+
